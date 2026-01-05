@@ -3,6 +3,7 @@ import { ENV } from "./config/env";
 import cors from "cors";
 import { clerkMiddleware } from '@clerk/express'
 
+
 import userRoutes from "./routes/userRoutes";
 import productRoutes from "./routes/productRoutes";
 import commentRoutes from "./routes/commentRoutes";
